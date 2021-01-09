@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnia.WebAPI", "Omnia.WebAPI\Omnia.WebAPI.csproj", "{A92E1954-FEED-466A-A455-D29C51EF19DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnia.DataAccess", "Omnia.DataAccess\Omnia.DataAccess.csproj", "{3838E2DA-CAB5-480A-A02F-83B9C4BC2C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnia.DataAccess.IntegrationTests", "Omnia.DataAccess.IntegrationTests\Omnia.DataAccess.IntegrationTests.csproj", "{3ED9018B-3360-4330-BF4A-2DE1B56BD486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnia.WebAPI.UnitTests", "Omnia.WebAPI.UnitTests\Omnia.WebAPI.UnitTests.csproj", "{2254DABA-56C2-4E2A-A96C-543DE79387EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A92E1954-FEED-466A-A455-D29C51EF19DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92E1954-FEED-466A-A455-D29C51EF19DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92E1954-FEED-466A-A455-D29C51EF19DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92E1954-FEED-466A-A455-D29C51EF19DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3838E2DA-CAB5-480A-A02F-83B9C4BC2C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3838E2DA-CAB5-480A-A02F-83B9C4BC2C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3838E2DA-CAB5-480A-A02F-83B9C4BC2C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3838E2DA-CAB5-480A-A02F-83B9C4BC2C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED9018B-3360-4330-BF4A-2DE1B56BD486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED9018B-3360-4330-BF4A-2DE1B56BD486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED9018B-3360-4330-BF4A-2DE1B56BD486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED9018B-3360-4330-BF4A-2DE1B56BD486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2254DABA-56C2-4E2A-A96C-543DE79387EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2254DABA-56C2-4E2A-A96C-543DE79387EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2254DABA-56C2-4E2A-A96C-543DE79387EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2254DABA-56C2-4E2A-A96C-543DE79387EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCD23392-78B6-425B-A368-6EE641E8E940}
+	EndGlobalSection
+EndGlobal
