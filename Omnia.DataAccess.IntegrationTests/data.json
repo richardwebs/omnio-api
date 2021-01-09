@@ -1,0 +1,22 @@
+[
+  {
+    "PlayerId": "4b46c62c-4ddd-4f0f-9182-d1442dfc2f02",
+    "Name": "Joe",
+    "Score": 3
+  },
+  {
+    "PlayerId": "066ee165-4125-464f-87aa-0a6a08e4f909",
+    "Name": "Jane",
+    "Score": 1
+  },
+  {
+    "PlayerId": "fbda2c29-2f60-4b57-bc3e-3b22adc5f8e4",
+    "Name": "Jonny",
+    "Score": 5
+  },
+  {
+    "PlayerId": "fd44f32a-cf1d-44d1-a68a-9d301deb9e27",
+    "Name": "Jeremy",
+    "Score": 2
+  }
+]

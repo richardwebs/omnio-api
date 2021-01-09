@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
+using Omnia.DataAccess.Repositories;
 
 namespace Omnia.WebAPI
 {
@@ -38,6 +39,9 @@ namespace Omnia.WebAPI
                     y.AllowAnyMethod();
                 });
             });
+
+            // Repositories
+            services.AddTransient<IPlayerRepository, PlayerRepository>();
 
             // Swagger
             services.AddSwaggerGen(c =>
